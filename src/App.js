@@ -74,7 +74,6 @@ function App() {
   return (
     <React.Fragment>
       <div>
-        <section>nothing in this section available in the room just go back in the house of the shell where you come from </section>
       <section>
         <AddMovie onAddMovie={addMovieHandler} />
       </section>
