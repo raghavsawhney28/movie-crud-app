@@ -27,7 +27,8 @@ function App() {
           id: key,
           title: data[key].title,
           openingText: data[key].openingText,
-          releaseDate: data[key].releaseDate
+          releaseDate: data[key].releaseDate,
+          image: data[key].image
         });
       }
 
