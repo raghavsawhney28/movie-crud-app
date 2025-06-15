@@ -24,7 +24,8 @@ function AddMovie(props) {
   }
 
   return (
-    <form onSubmit={submitHandler}>
+    
+    <form className={classes.card} onSubmit={submitHandler}>
       <div className={classes.control}>
         <label htmlFor='title'>Title</label>
         <input type='text' id='title' ref={titleRef} />
@@ -43,6 +44,7 @@ function AddMovie(props) {
       </div>
       <button>Add Movie</button>
     </form>
+    
   );
 }
 

@@ -3,16 +3,19 @@ section {
   width: 90%;
   max-width: 40rem;
   text-align: center;
-  background-color: white;
+  background-color: #2d024d;
   padding: 2rem;
   border-radius: 12px;
+}
+div {
+background-image: url("https://r4.wallpaperflare.com/wallpaper/689/798/560/flowers-photoshop-matte-paint-purple-background-dark-hd-wallpaper-d2ff505cba0f53df8364e3c1c3bba74f.jpg") ;
 }
 
 button {
   font: inherit;
   cursor: pointer;
-  background: #230052;
-  border: 1px solid #230052;
+  background: #3b007d;
+ border: 2px solid #9400d3;
   color: white;
   padding: 0.75rem 2rem;
   border-radius: 20px;
